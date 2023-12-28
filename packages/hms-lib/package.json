@@ -1,0 +1,13 @@
+{
+    "name": "@common/hms-lib",
+    "main": "dist/index.js",
+    "types": "src/index.ts",
+    "scripts": {
+        "hms:build": "tsc",
+        "hms:dev": "tsc",
+        "hms:lib:update": "copyfiles -u 3 ../../hms-apps/google/**/* ../../hms-apps/proto/**/*.ts src/types && npm install"
+    },
+    "devDependencies": {
+        "typescript": "latest"
+    }
+}

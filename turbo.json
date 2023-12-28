@@ -1,0 +1,42 @@
+{
+    "$schema": "https://turbo.build/schema.json",
+    "pipeline": {
+        "dev": {
+            "cache": false
+        },
+        "hms:dev":{
+            "cache": false,
+            "dependsOn": [
+                "hms:lib:update",
+                "hms:copy:proto"
+            ]
+        },
+        "build": {
+            "dependsOn": [
+                "^build"
+            ],
+            "outputs": [
+                "dist/**"
+            ]
+        },
+        "hms:build": {
+            "dependsOn": [
+                "hms:lib:update",
+                "hms:copy:proto",
+                "^build"
+            ],
+            "outputs": [
+                "dist/**"
+            ]
+        },
+        "hms:copy:proto":{
+            "cache": true
+        },
+        "hms:lib:update":{
+            "cache": true
+        },
+        "hms:preview":{
+            "cache": false
+        }
+    }
+}
