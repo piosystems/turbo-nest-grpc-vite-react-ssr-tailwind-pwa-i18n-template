@@ -106,6 +106,7 @@ export const Struct = {
   },
 };
 
+//@ts-ignore
 function createBaseValue(): Value {
   return {};
 }
