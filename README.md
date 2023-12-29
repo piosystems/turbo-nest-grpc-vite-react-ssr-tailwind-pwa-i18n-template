@@ -61,12 +61,15 @@ If there was code and/or css change before build, you will need to update the 'm
 > ***npm run hms:build*** (for ***hms-apps***)
 > 
 ### For production start/stop with pm2 use:
+>
 > ***npm run hms:start:all***
+> 
 > ***npm run hms:stop:all***
 
 ## Experience It!
 
 ### With ***npm run dev*** or ***npm start***, you should have access to:
+>
 > http://localhost:3000/web, 
 > http://localhost:3000/v1/web, 
 > http://localhost:3000/v2/web 
