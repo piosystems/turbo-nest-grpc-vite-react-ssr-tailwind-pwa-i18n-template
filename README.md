@@ -18,7 +18,7 @@
 >
 > ...
 
-### 2. hms-apps illustrates:
+### 2. ***hms-apps*** illustrates:
 > Microservice with gRPC as transporter
 >
 > Shadcn/ui (inspired by https://ui.shadcn.com/docs)
