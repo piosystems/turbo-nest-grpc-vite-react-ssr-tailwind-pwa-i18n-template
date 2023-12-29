@@ -62,9 +62,10 @@ If there was code and/or css change before build, you will need to update the 'm
 > 
 ### For production start/stop with pm2 use:
 >
-> ***npm run hms:start:all***
+> ***npm run hms:start:all*** (for start).
 > 
-> ***npm run hms:stop:all***
+> ***npm run hms:stop:all*** (for stop).
+>
 
 ## Experience It!
 
