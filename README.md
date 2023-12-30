@@ -39,6 +39,10 @@
 
 ## B. Installations to experience my template:
 
+> npm install -g @nestjs/cli
+>
+> npm install turbo --global
+> 
 > Git clone my https://github.com/piosystems/turbo-nest-grpc-vite-react-ssr-tailwind-pwa-i18n-template.git
 > 
 > Run ***npm install*** from turbo root to install all dependencies
