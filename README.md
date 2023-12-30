@@ -103,16 +103,19 @@
 > You can use ***npm run hms:stop:all*** to stop them.
 > 
 
-#### To connect to api-gateway from frontend,
-> With ***npm run preview*** you should have already built ***users-demo-frontend*** running and talking to ***identity*** via ***api-gateway***.
+#### To connect to ***api-gateway*** from ***users-demo-frontend***:
+>
+> You can achieve this with ***npm run preview*** after you have built ***users-demo-frontend***. It proxies /user to ***api-gateway*** which in turn houses a client for  ***identity*** microservice.
 > 
 > Now you should see http://localhost:4173/view-users.
 > 
 > ![image](https://github.com/piosystems/turbo-nest-grpc-vite-react-ssr-tailwind-pwa-i18n-template/assets/3983248/0c584d59-870e-4bf3-8b03-29f61b6acdc9)
 
 
-## E. Your EXERCISE: 
-Serve ***users-demo-frontend*** from ***api-gateway*** so that there will be no need to run a separate ***npm run preview*** process for it. In other words, when done, you should be able to see something like http://localhost:3002/v1/view-users if combined and served from ***api-gateway***. Incorporate SSR, PWA, Internationalization, etc., as well, in your exercise. Take a clue from my ***apps*** template where I serve ***demo-frontend*** build from ***demo-backend*** and also did SSR among others.
+## E. Your EXERCISES: 
+1. Serve ***users-demo-frontend*** from ***api-gateway*** so that there will be no need to run a separate ***npm run preview*** process for it as we did above. In other words, when done, you should be able to see something like http://localhost:3002/v1/view-users if combined and served from ***api-gateway***.
+2. Incorporate SSR, PWA, Internationalization, etc., as well, in your exercise. Take a clue from my ***apps*** template where I serve ***demo-frontend*** build from ***demo-backend*** and also did SSR, among others.
+3. Work more on the ***hms-apps/identity/src/users*** to use TypeORM for entity, instead of the current illustration with  data as array of users hardcoded in ***hms-apps/identity/src/users/users.service.ts***
 
 
 
