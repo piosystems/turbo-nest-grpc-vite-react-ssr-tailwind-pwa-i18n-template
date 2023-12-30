@@ -28,7 +28,7 @@
 >
 > React-query for server query caching (see my users-demo-frontend/src/App.tsx and users-demo-frontend/src/components/Users.tsx inspired by https://tanstack.com/query/latest/). 
 
-### Workspace ***packages*** contains shared libraries (inspired by https://turbo.build/repo/docs/handbook/sharing-code)
+### 3. Workspace ***packages*** contains shared libraries (inspired by https://turbo.build/repo/docs/handbook/sharing-code)
 
 
 ## Installations to experience my template:
