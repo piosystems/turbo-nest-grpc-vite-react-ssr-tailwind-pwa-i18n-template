@@ -113,7 +113,7 @@
 
 
 ## E. Your EXERCISES: 
-1. Serve ***users-demo-frontend*** from ***api-gateway*** so that there will be no need to run a separate ***npm run preview*** process for it as we did above. In other words, when done, you should be able to see something like http://localhost:3002/v1/view-users if combined and served from ***api-gateway***.
+1. Statically serve ***users-demo-frontend*** from ***api-gateway*** so that there will be no need to run a separate ***npm run preview*** process for it as we did above. In other words, when done, you should be able to see something like http://localhost:3002/v1/view-users if combined and served from ***api-gateway***.
 2. Incorporate SSR, PWA, Internationalization, etc., as well, in your exercise. Take a clue from my ***apps*** template where I serve ***demo-frontend*** build from ***demo-backend*** and also did SSR, among others.
 3. Work more on the ***hms-apps/identity/src/users*** to use TypeORM for entity, instead of the current illustration with  data as array of users hardcoded in ***hms-apps/identity/src/users/users.service.ts***
 
