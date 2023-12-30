@@ -3,22 +3,19 @@
 
 ## Note the following about my turbo-based monorepo: 
 
-### 1. ***apps*** illustrates (as we saw in class):
+### 1. There are three workspaces in my turbo monorepo namely ***apps***, ***hms-apps*** and ***packages***. Identify the folders in the codebase now!. This ReadMe is a quick outline to get you going but you may need my classnotes to fully appreciate the template.
+
+
+### 1. Workspace ***apps*** illustrates (as we saw in class):
 > Routing (V6)
->
 > Internationalization with i18next
->
 > Progress Web Apps (PWA)
->
 > SSR
->
 > Code splitting
->
 > Tailwind with Flowbite
->
 > ...
 
-### 2. ***hms-apps*** illustrates:
+### 2. Workspace ***hms-apps*** illustrates:
 > Microservice with gRPC as transporter
 >
 > Shadcn/ui (inspired by https://ui.shadcn.com/docs)
@@ -30,6 +27,8 @@
 > Navigation (see my users-demo-frontend /src/components/navigation folder, inspired by https://ui.shadcn.com/docs/components/navigation-menu)
 >
 > React-query for server query caching (see my users-demo-frontend/src/App.tsx and users-demo-frontend/src/components/Users.tsx inspired by https://tanstack.com/query/latest/). 
+
+### Workspace ***packages*** contains shared libraries (inspired by https://turbo.build/repo/docs/handbook/sharing-code)
 
 
 ## Installations to experience my template:
@@ -56,7 +55,7 @@
 > 
 > ***npm run build*** (for apps)
 > 
-If there was code and/or css change before build, you will need to update the 'main.js' and 'styles.css' entries in ***assetMap***, setup in ***apps/demo-backend/src/backend.settings.ts***. The new names generated are in ***dist/assets*** folder ***demo-frontend***. ***npm run build*** again, after adjustment.
+If there was code and/or css change before build, you will need to update the 'main.js' and 'styles.css' entries in ***assetMap***, setup in ***apps/demo-backend/src/backend.settings.ts***. The new names generated are in ***dist/assets***  of ***demo-frontend***. ***npm run build*** again, after adjustment.
 >
 > ***npm run hms:build*** (for ***hms-apps***)
 > 
