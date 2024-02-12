@@ -5,7 +5,7 @@ export const initialContentMap = {
 
 export const assetMap = {
   'styles.css': '/assets/index-0fxx1tdA.css',
-  'main.js': '/assets/index-0Hv7_DWP.js',
+  'main.js': '/assets/index-n2JaK7lD.js',
   'manifest': '/manifest.webmanifest',
   'vite-plugin-pwa:register-sw': '/registerSW.js',
   'additional-styles': [],//sufficient to drop flowbite.min.css in src/assets folder, to be incorporated at build time

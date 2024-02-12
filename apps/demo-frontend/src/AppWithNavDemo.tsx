@@ -44,8 +44,6 @@ export const AppContext = createContext<AppContextType>(null);
 
 const AppWithNavDemo: React.FC<Props> = ({ assetMap }) => {
 
-  
-
   const { i18n } = useTranslation();
 
   const changeI18nLanguageToClientPreferred = async () => {
